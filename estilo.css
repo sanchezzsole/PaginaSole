@@ -7,8 +7,8 @@ header{
     /* buscar una imagen mas adecuada q no se repita */
     height: 150px;
     display: flex;
-    justify-content: flex-end;
-    position: fixed;
+    justify-content: center;
+    position:sticky;
     top: 0px;
     width: 100%;
 }
@@ -16,7 +16,8 @@ header{
 h1{
     background-color: rgba(255, 255, 255, 0.452);
     height: 40px;
-    padding: 20px;
+    padding: 10px;
+    margin-top:30px;
 
 }
 nav ol li{
@@ -24,15 +25,19 @@ nav ol li{
     margin: 5px;
     display: inline;
     padding: 10px;
- 
+
 }
 article{
     background: linear-gradient(rgba(45, 231, 123, 0.692), rgba(17, 151, 151, 0.63));
+    color: rgb(0, 59, 66);
     width: 100%;
     height: 700px;
-    padding-top: 150px;
+    padding-top: 250px;
 }
 
+article p ol li{
+    text-decoration: none;
+}
 nav{
     position: fixed;
     background-color: rgb(0, 122, 138);
