@@ -1,0 +1,80 @@
+#manos{ /* se trata como un texto */
+    background-color: #0000ff;
+    color: red;
+    padding: 30px;
+    animation-name: manos;
+    animation-duration: 6s;
+    animation-iteration-count:3;/* segun cuantas veces quiero q se repita */
+    animation-delay: 4s; /* para q no se ejecute ni bien carga sino dsp de x tiempo*/
+    position: absolute;
+}
+
+@keyframes manos{/*esta es la palabra reservada para la animacion: keyframes con un nombre q inventemos */
+    from{color: blue; top: 50px;}
+    to{color: red; top: 250px;}
+}
+
+.cuadros{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+#uno{
+    background-color: rgb(155, 69, 69);
+    color: wheat;
+    position: relative;
+    top: 0px;
+    animation-name: mover;
+    animation-duration: 5s;
+
+}
+
+@keyframes mover{
+    25% {top: 200px;}
+    50%{left: 220px;}
+    75%{top: 0px;}
+    100%{left: 20px;}
+}
+
+/* se pueden poner mas animaciones a un mismo elemento con animation-name: mover, flecha, etc... */
+
+ul li{
+    display: inline;
+    padding: 10px;
+    background-color: lightsteelblue;
+    color: rgb(0, 41, 27);
+    cursor: pointer;
+}
+
+ul li:hover{
+    animation-name: menu;
+    animation-duration: 2s;
+    }
+
+@keyframes menu {
+    0%{
+        padding: 10px;
+        background-color: lightsteelblue;
+        color: rgb(0, 41, 27);
+    }
+    100%{
+        padding: 15px;
+        background-color: rgb(38, 31, 78);
+        color: wheat;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 30px;
+    }
+    
+}
+
+h1{
+    animation-name: titulo;
+    animation-duration: 5s;
+}
+@keyframes titulo{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
