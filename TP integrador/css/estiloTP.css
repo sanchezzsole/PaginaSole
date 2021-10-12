@@ -7,3 +7,46 @@ header{
     block-size: 70px;
 }
 
+.card{
+    display: flex
+}
+
+.cambios, .cambios ul li a{
+    background-color: rgb(28, 60, 75);
+    color: white;
+
+    }
+
+.green{
+    color:rgb(41, 167, 68);
+    }
+
+.botonTickets {
+    background-color: rgb(41, 167, 68);
+}
+
+
+.botonSmall{
+    padding: 2px 7px;
+    background-color: rgb(255, 194, 8);;
+    border: rgb(255, 194, 8);
+    color: black;
+    font-weight: bold;
+}
+
+.react{
+    color: white;
+    background-color: rgb(20, 162, 182);;
+    border: rgb(20, 162, 182);
+}
+
+.ada{
+    background-color: rgb(219, 54, 70); 
+}
+
+.negocios{
+    background-color: rgb(107, 117, 126); 
+}
+/* .ajustesImg{
+    block-size: 70px;
+} */

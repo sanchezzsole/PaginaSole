@@ -10,57 +10,53 @@
 </head>
 <body>
 
-<!-- 
-    <div class="container">
-        <div class="row">
+
+    <div class="container-fluid">
+        <div class="row bg-dark text-white p-2 fs-4 text fixed-top d-flex align-items-center">
             <div class="col-4">
-                
+                <img src="../TP integrador/img/codoacodo.png" class="modificaciones" alt="">
+                Conf Bs As
+            </div>
+            <div class="col-8 fixed-top ">
+                <nav class="navbar navbar-expand-lg navbar-dark d-flex d-flex justify-content-end align-items-center fs-6 text ">
+                    <div>
+                      <!-- <a class="nav-link active text-white" href="#">La conferencia</a> -->
+                      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> todos estos no se para q son salvo el primero, los demas los sacas y no pasa nada -->
+                        <!-- <span class="navbar-toggler-icon"></span> no se para q es, borro y no pasa nada -->
+                      <!-- </button> --> 
+                      <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link  " href="#">Los oradores</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-gray" href="#">El lugar y la fecha</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-gray">Conviértete en orador</a>
+                          </li>
+                          <li class="green nav-item">
+                            <a class="nav-link text-success">Comprar tickets</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </div>
-    </div> -->
-    <header class="bg-dark text-white p-2 fs-4 text">
-        <img src="../TP integrador/img/codoacodo.png" class="modificaciones" alt="">
-        Conf Bs As
-
-        <div class="row fixed-top ">
-            <nav class="navbar navbar-expand-lg navbar-dark  fixed-top d-flex align-items-center justify-content-end fs-6 text ">
-                <div>
-                  <!-- <a class="nav-link active text-white" href="#">La conferencia</a> -->
-                  <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> todos estos no se para q son salvo el primero, los demas los sacas y no pasa nada -->
-                    <!-- <span class="navbar-toggler-icon"></span> no se para q es, borro y no pasa nada -->
-                  <!-- </button> --> 
-                  <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link  " href="#">Los oradores</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-gray" href="#">El lugar y la fecha</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-gray">Conviértete en orador</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-success">Comprar tickets</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
-    </header>
-    <div class="container">
-
+    </div>
         
-        
- 
+    <img src="../TP integrador/img/ba1.jpg" alt="">
+
         <div class="row">
-            <img src="../TP integrador/img/ba1.jpg" alt="">
-            <div class="col-6"></div>
-            <div class="col-5 p-5 text-end">
+
+            <div class="col-6">
+                 <!--para que quede al lado de la otra columna-->
+            </div>
+            <div class="col-6 p-5 text-end">
                 
                 <!-- <div class="card text-end col-6" style="width: 18rem;">
                     <div class="card-body">
@@ -73,10 +69,125 @@
 
                 <h2>Conf Bs As</h2>
                 <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <div class="btn btn-lg text-white">
+                <button type="button" class="btn btn-outline-white text-white">Quiero ser orador</button>
+                <button type="button" class="botonTickets btn btn-success">Comprar tickets</button>
+            </div>
+               
+            </div>
+        </div>
+        <div class="row text-center">
+            <h6>CONOCE A LOS</h6>
+            <h3>ORADORES</h3>
+
+            <div class="row row-cols-md-4 g-4 d-flex justify-content-center text-start">
+                <div class="col">
+                  <div class="card">
+                    <img src="../TP integrador/img/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <button type="button" class="botonSmall btn btn-primary btn-sm">JavaScript</button>
+                        <button type="button" class="botonSmall react btn btn-secondary btn-sm">React</button>
+                      <h5 class="card-title">Steve Jobs</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque facere perspiciatis, beatae excepturi cumque aliquid qui amet praesentium laudantium aspernatur voluptate ipsa ab quod, dolor repellat error quasi neque sed.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../TP integrador/img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <button type="button" class="botonSmall btn btn-primary btn-sm">JavaScript</button>
+                        <button type="button" class="botonSmall react btn btn-secondary btn-sm">React</button>
+                      <h5 class="card-title">Bill Gates</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci, similique quo, doloremque porro nulla, cupiditate incidunt impedit nesciunt pariatur in itaque alias iusto voluptates animi soluta! Reprehenderit, facere mollitia.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="../TP integrador/img/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <button type="button" class="botonSmall negocios btn btn-sm text-white">Negocios</button>
+                        <button type="button" class="botonSmall ada btn  btn-sm text-white" >Startups</button>
+                      <h5 class="card-title">Ada Lovelace</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, iure totam? Voluptatibus dolorum ut illo eveniet impedit consectetur nisi, suscipit perspiciatis adipisci praesentium doloribus, perferendis rerum. Veniam omnis nam a!</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          
+        </div>
+        <div class="row mt-5">
+            <div class=""><img src="../TP integrador/img/honolulu.jpg" alt="" class="col-6"> </div>
+            <div class="card d-flex bg-dark text-start" style="width: 60rem; height: 30rem;">
+                    <div class="card-body">
+                      <h5 class="card-title text-white">Bs As - Octubre</h5>
+                      <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+                      <a href="#" class="btn btn-dark text-white border-white">Conocé más</a>
+                    </div>
+                  </div>
+          </div>
+
+        <div class="row mt-5 d-flex justify-content-center">
+            <div class="row text-center">
+                <h6>CONVIÉRTETE EN UN</h6>
+                <h3>ORADOR</h3>
+                <p>Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
             </div>
 
+            <div class="row row-cols-md-4 col-10 g-1 d-flex justify-content-center">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input class="form-control">
+                    <label>Nombre</label>
+                  </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-floating">
+                        <input class="form-control">
+                        <label>Apellido</label>
+                      </div>
+                </div>
+              </div>
+            
+              <div class="row row-cols-md-4 col-5 g-1 d-flex justify-content-center text-start">
+                <textarea class="form-control" placeholder="Sobre qué quieres hablar?"  style="height: 100px"></textarea>
+                <label class="text-start">Recuerda incluir un título para tu charla</label>
+              
+              </div>
+              <div class="d-grid gap-2 col-8">
+                <button class="btn btn-success" type="button">Button</button>
+
+              </div>
         </div>
-    </div>
-    
+
+    </div> <!--ESTE CIERRA EL CONTEINER-->
+    <footer class="cambios p-4">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+               <a class="nav-link" href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conferencias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Términos y condiciones</a>
+              </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="#">Privacidad</a>
+            </li>     
+            <li class="nav-item">
+                <a class="nav-link" href="#">Estudiantes</a>
+            </li>       
+          </ul>
+    </footer>
+
 </body>
 </html>
