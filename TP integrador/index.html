@@ -9,68 +9,60 @@
     <link rel="stylesheet" href="../TP integrador/css/estiloTP.css">
 </head>
 <body>
-
-
-    <div class="container-fluid">
-
-        
-
-        <div class="row bg-dark text-white p-2 fs-4 text fixed-top d-flex align-items-center">
-            <div class="col-4">
-                <img src="../TP integrador/img/codoacodo.png" class="modificaciones" alt="">
-                Conf Bs As
-            </div>
-            <div class="col-8 fixed-top ">
-                <nav class="navbar navbar-expand-lg navbar-dark d-flex d-flex justify-content-end align-items-center fs-6 text ">
-                    
-                    <div>
-                      <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active text-white" href="#">La conferencia</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link  " href="#">Los oradores</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-gray" href="#">El lugar y la fecha</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-gray">Conviértete en orador</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" id="green">Comprar tickets</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
-        </div>    
-    </div>
-        
-
-        <div class="row">
-
-            <img src="../TP integrador/img/ba1.jpg" class="opacity-75" alt="">
-            <div class="col-6">
-                 <!--para que quede al lado de la otra columna-->
-            </div>
-            <div class="col-6 p-5 text-end ">
+    <header>
+    <nav class="px-5 navbar navbar-expand-lg navbar-dark">
+        <div class="px-5 container-fluid">        
+            <a class="pb-2 pt-0 navbar-brand" href="#"><img src="../TP integrador/img/codoacodo.png" class="modificaciones" alt="ConfBsAs" />Conf Bs As</a>     
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+          <div class="pb-1 collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#laConferencia">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#losOradores">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray" href="#elLugarYLaFecha">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray" href="#convierteteEnOrador">Conviértete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="green" href="#comprarTickets">Comprar tickets</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+    </header>    
+    
+     <div id="descripcionConf">
+        <img src="../TP integrador/img/ba1.jpg" class="card-img" alt="imgConfBsAs">
+        <div class="card-img-overlay">
+            <div class="invitacionConf text-white text-end align-items-center ">
                 <h2>Conf Bs As</h2>
-                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con <br> 
+                    nuestra comunidad el conocimiento y experiencia de los expertos que <br>
+                    están creando el futuro de Internet. Ven a conocer a miembros del <br>
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer <br>
+                    nivel que tenemos para ti. Te esperamos!</p>
             <div class="btn btn-lg text-white">
-                <button type="button" class="btn btn-outline-white text-white">Quiero ser orador</button>
+                <button type="button" class="btn btn-outline-light text-white">Quiero ser orador</button>
                 <button type="button" class="botonTickets btn btn-success">Comprar tickets</button>
             </div>
-               
             </div>
-        </div>
-        <div class="row text-center">
+        </div>   
+    </div>
+
+        <div class="text-center pt-3">
             <h6>CONOCE A LOS</h6>
             <h3>ORADORES</h3>
 
-            <div class="row row-cols-md-4 g-4 d-flex justify-content-center text-start">
+            <div class="row row-cols-md-4 d-flex justify-content-center text-start">
                 <div class="col">
                   <div class="card">
                     <img src="../TP integrador/img/steve.jpg" class="card-img-top" alt="...">
@@ -89,7 +81,7 @@
                         <button type="button" class="botonSmall btn btn-primary btn-sm">JavaScript</button>
                         <button type="button" class="botonSmall react btn btn-secondary btn-sm">React</button>
                       <h5 class="card-title">Bill Gates</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci, similique quo, doloremque porro nulla, cupiditate incidunt impedit nesciunt pariatur in itaque alias iusto voluptates animi soluta! Reprehenderit, facere mollitia.</p>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque facere perspiciatis, beatae excepturi cumque aliquid qui amet praesentium laudantium aspernatur voluptate ipsa ab quod, dolor repellat error quasi neque sed.</p>
                     </div>
                   </div>
                 </div>
@@ -100,24 +92,27 @@
                         <button type="button" class="botonSmall negocios btn btn-sm text-white">Negocios</button>
                         <button type="button" class="botonSmall ada btn  btn-sm text-white" >Startups</button>
                       <h5 class="card-title">Ada Lovelace</h5>
-                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, iure totam? Voluptatibus dolorum ut illo eveniet impedit consectetur nisi, suscipit perspiciatis adipisci praesentium doloribus, perferendis rerum. Veniam omnis nam a!</p>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque facere perspiciatis, beatae excepturi cumque aliquid qui amet praesentium laudantium aspernatur voluptate ipsa ab quod, dolor repellat error quasi neque sed.</p>
                     </div>
                   </div>
                 </div>
 
               </div>
           
-        </div>
+        </div id="folleto">
         <div class="row mt-5">
-            <div class=""><img src="../TP integrador/img/honolulu.jpg" alt="" class="col-6"> </div>
-            <div class="card d-flex bg-dark text-start" style="width: 60rem; height: 30rem;">
-                    <div class="card-body">
-                      <h5 class="card-title text-white">Bs As - Octubre</h5>
-                      <p class="card-text text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
-                      <a href="#" class="btn btn-dark text-white border-white">Conocé más</a>
-                    </div>
-                  </div>
-          </div>
+            <div class="col imagen">
+                <img src="../TP integrador/img/honolulu.jpg" alt="" class="img-fluid"> 
+            </div>
+            <div class="col parrafo text-start">
+                <h5 class="text text-white mt-4 ms-2">Bs As - Octubre</h5>
+                  <p class="text text-white ms-2">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la<br>
+                    más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área<br>
+                    urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-<br>
+                    condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
+                <a href="#" class="btn btn-dark text-white border-white ms-2" id="btnParrafo">Conocé más</a>
+            </div>
+        </div>
 
         <div class="row mt-5 d-flex justify-content-center">
             <div class="row text-center">
@@ -153,10 +148,10 @@
         </div>
 
     </div> <!--ESTE CIERRA EL CONTEINER-->
-    <footer class="cambios p-4">
-        <ul class="nav justify-content-center">
+    <footer class="cambios p-3">
+        <ul class="nav justify-content-center align-items-center">
             <li class="nav-item">
-               <a class="nav-link" href="#">Preguntas frecuentes</a>
+               <a class="nav-link" href="#">Preguntas <br> frecuentes</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Contáctanos</a>
@@ -168,7 +163,7 @@
               <a class="nav-link" href="#">Conferencias</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Términos y condiciones</a>
+                <a class="nav-link" href="#">Términos y<br>condiciones</a>
               </li>
             <li class="nav-item">
                  <a class="nav-link" href="#">Privacidad</a>

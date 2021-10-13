@@ -1,10 +1,15 @@
-header{
-    background-color: black;
-    size: 500px ;
+/* .style ul li a{
+    background-color: rgb(83, 138, 206) important!;
+
+} */
+
+header .navbar, .parrafo, #btnParrafo{
+    background-color: rgb(53, 58, 64);
 }
 
+
 .modificaciones{
-    block-size: 70px;
+    block-size: 75px;
 }
 
 .card{
@@ -28,6 +33,7 @@ header{
 
 .botonSmall{
     padding: 2px 7px;
+    margin-bottom: 3px;
     background-color: rgb(255, 194, 8);;
     border: rgb(255, 194, 8);
     color: black;
