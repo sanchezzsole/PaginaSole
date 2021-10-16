@@ -1,8 +1,3 @@
-/* .style ul li a{
-    background-color: rgb(83, 138, 206) important!;
-
-} */
-
 header .navbar, .parrafo, #btnParrafo{
     background-color: rgb(53, 58, 64);
 }
@@ -16,6 +11,34 @@ header .navbar, .parrafo, #btnParrafo{
     display: flex
 }
 
+.confDescripcion{
+    margin: 350px;
+    margin-right: 250px;
+    font-size: larger;
+}
+
+.tituloConf{
+    font-size: xx-large;
+    margin-right: 0px;
+}
+
+
+.imgPrincipal{
+    filter: brightness(50%);
+}
+
+.imgPlaya{
+    margin-left: 0px;
+    padding-right: 0px;
+    
+}
+.imagen{
+    padding: 1px;
+}
+
+.parrafo{
+    margin: 1px;
+}
 .cambios, .cambios ul li a{
     background-color: rgb(28, 60, 75);
     color: white;
@@ -53,6 +76,46 @@ header .navbar, .parrafo, #btnParrafo{
 .negocios{
     background-color: rgb(107, 117, 126); 
 }
-/* .ajustesImg{
-    block-size: 70px;
-} */
+
+.formHablar{
+    margin-left: 200px;
+}
+
+.estiloForm{
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.botonEnviar{
+    background-color: rgb(150, 201, 62);
+    margin: 15px;
+    border: rgb(150, 201, 62);
+    padding: 10px;
+     margin-left: 40px;
+     margin-right: 20px;
+}
+
+.cambiosFooter{
+    background: linear-gradient(to right,rgb(28, 54, 67),rgb(30, 83, 114));
+    
+}
+
+footer ul li a{
+
+margin-left: 55px;
+margin-right: 55px;
+    /* background-color: tomato;
+    align-items: center !important;
+    vertical-align: middle !important; */
+}
+
+.estudiantes{
+
+    /* text-decoration: none;
+    background-color: transparent;
+    color: tomato;
+    text-overflow: initial;
+    text-shadow: ivory;
+    overflow: hidden;
+    outline: lavender; */
+}
