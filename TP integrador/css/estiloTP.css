@@ -86,8 +86,7 @@ header .navbar, .parrafo, #btnParrafo{
     margin: 15px;
     border: rgb(150, 201, 62);
     padding: 10px;
-     margin-left: 40px;
-     margin-right: 20px;
+    width: 930px;
 }
 
 .cambiosFooter{
