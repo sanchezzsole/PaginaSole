@@ -39,11 +39,6 @@ header .navbar, .parrafo, #btnParrafo{
 .parrafo{
     margin: 1px;
 }
-.cambios, .cambios ul li a{
-    background-color: rgb(28, 60, 75);
-    color: white;
-
-    }
 
 #green{
     color: rgb(41, 167, 68);
@@ -96,26 +91,13 @@ header .navbar, .parrafo, #btnParrafo{
 }
 
 .cambiosFooter{
-    background: linear-gradient(to right,rgb(28, 54, 67),rgb(30, 83, 114));
-    
+    background: linear-gradient(to right,rgb(28, 54, 67),rgb(30, 83, 114)); 
 }
 
-footer ul li a{
-
-margin-left: 55px;
-margin-right: 55px;
-    /* background-color: tomato;
-    align-items: center !important;
-    vertical-align: middle !important; */
-}
-
-.estudiantes{
-
-    /* text-decoration: none;
+.cambios ul li a{
     background-color: transparent;
-    color: tomato;
-    text-overflow: initial;
-    text-shadow: ivory;
-    overflow: hidden;
-    outline: lavender; */
-}
+    color: white;
+    margin-left: 55px;
+    margin-right: 55px;
+
+    }
