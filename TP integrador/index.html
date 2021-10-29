@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-    <nav class="px-5 navbar navbar-expand-lg navbar-dark">
+    <nav class="px-4 navbar navbar-expand-lg navbar-dark">
         <div class="px-5 container-fluid">        
             <a class="pb-0 pt-0 navbar-brand" href="#"><img src="../TP integrador/img/codoacodo.png" class="modificaciones" alt="ConfBsAs" />Conf Bs As</a>     
            
@@ -32,7 +32,7 @@
                 <a class="nav-link text-gray" href="#convierteteEnOrador">Conviértete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="green" href="#comprarTickets">Comprar tickets</a>
+                <a class="nav-link" href="#tickets" onclick="comprarTickets()" id="green">Comprar tickets</a>
               </li>
             </ul>
         </div>
@@ -40,6 +40,7 @@
       </nav>
     </header>    
     
+    <section id="section">
      <div id="descripcionConf" >
         <img src="../TP integrador/img/ba1size.jpg" class="card-img imgPrincipal" alt="imgConfBsAs">
         <div class="card-img-overlay">
@@ -55,7 +56,7 @@
                         nivel que tenemos para ti. Te esperamos!</p>
                 <div class="btn btn-lg text-white">
                     <button type="button" class="btn btn-outline-light text-white">Quiero ser orador</button>
-                    <button type="button" class="botonTickets btn btn-success">Comprar tickets</button>
+                    <button type="button" class="botonTickets btn btn-success" onclick="comprarTickets()">Comprar tickets</button>
                 </div>
                 </div>
 
@@ -124,7 +125,8 @@
                 <h3>ORADOR</h3>
                 <p>Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
             </div>
-
+          
+      
          <div class="container estiloForm">
             <div class="row d-flex justify-content-center"> 
 
@@ -144,6 +146,7 @@
             </div>   
           </div>
     
+        </section>
 
     <footer class="cambios cambiosFooter p-3">
         <ul class="nav justify-content-center align-items-center">
@@ -170,6 +173,6 @@
             </li>       
           </ul>
     </footer>
-
+    <script src="./js/paginaTickets.js"></script>
 </body>
 </html>

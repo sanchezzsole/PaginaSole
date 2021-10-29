@@ -2,7 +2,6 @@ header .navbar, .parrafo, #btnParrafo{
     background-color: rgb(53, 58, 64);
 }
 
-
 .modificaciones{
     block-size: 75px;
 }
@@ -21,7 +20,6 @@ header .navbar, .parrafo, #btnParrafo{
     font-size: xx-large;
     margin-right: 0px;
 }
-
 
 .imgPrincipal{
     filter: brightness(50%);
@@ -98,5 +96,15 @@ header .navbar, .parrafo, #btnParrafo{
     color: white;
     margin-left: 55px;
     margin-right: 55px;
-
     }
+
+#botonCalcular, #btnBorrar{
+    background-color: rgb(150, 201, 62);
+    color: white;
+    width: 99%;
+    margin:1%;
+}
+
+.formularioCompleto, .cardsInicio{
+    margin-left: 15%;
+}
