@@ -3,7 +3,7 @@ let seccion = document.getElementById("section");
 const comprarTickets=()=>{
     seccion.innerHTML=`
         <div class="container">
-            <div class="row">
+            <div class="row mt-4">
                 <div class="cardsInicio col-8 justify-content-center ">
                     <div class="card-group text-center">
                         <div class="card">
@@ -82,9 +82,7 @@ const comprarTickets=()=>{
                 </div>
             </div>
 
-        </form>
-
-            
+        </form>     
     
 
         <!-- Modal -->
@@ -101,6 +99,7 @@ const comprarTickets=()=>{
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                 <button type="button" class="btn btn-primary">Confirmar compra</button>
+
             </div>
             </div>
         </div>
