@@ -11,9 +11,15 @@ header .navbar, .parrafo, #btnParrafo{
 }
 
 .confDescripcion{
-    margin: 350px;
+    margin: -500px;
     margin-right: 250px;
     font-size: larger;
+    position: relative;
+}
+
+.conoceOradores{
+    margin-top: 750px;
+    
 }
 
 .tituloConf{
